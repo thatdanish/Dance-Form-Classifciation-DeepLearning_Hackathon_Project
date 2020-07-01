@@ -1,8 +1,8 @@
 # Dance-Form-Classification-via-Transfer-Learning
-1) This Image Classification is done via Transfer Learning, Pre_trained model used is InceptionV3.
-2) There are number of ways shown to approach this problem in this notebook.
-3) The approached which is used is:
-				Transfer Learning with InceptionV3 :-
+### 1) This Image Classification is done via Transfer Learning, Pre_trained model used is InceptionV3.
+### 2) There are number of ways shown to approach this problem in this notebook.
+### 3) The approached which is used is:
+				#### Transfer Learning with InceptionV3 :-
 				(a) Training Images and target class lables are appended to list data strutures respectively.
 				(b) Same is done for validation images.
 				(c) Target class lables are lable encoded using sklearn, and then further ahead they are One Hot Encoded using Keras.
@@ -16,7 +16,7 @@
 													(D) Dense Layer with Relu and Softmax as activation functions respectively.
 													(E) Optimizer = Adam , loss = categorical_crossentropy 
 													(F) Callbacks : ModelCheckpoint,PlotLossesKeras,ReduceLROnPlateau
-4) Alternative methods shown in the notebook are :
+### 4) Alternative methods shown in the notebook are :
 						(a) Data Augmentation using with ImageDataGenerator's flow_from_datafram(). 	
 						(b) Functional API Model over a pre-trained model.
 						(c) A CNN Sequential Model build from scratch.
