@@ -23,7 +23,7 @@
 						(d) Writing to a .csv file row-wise.
 
 ### 5) Model is saved as a json string in file 'model.json'.
-### 6) Output is saved on a .csv file named 'results.csv.
+### 6) Output is saved on a .csv file named 'results.csv'.
 														
 					
 
