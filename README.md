@@ -15,6 +15,7 @@
 													(D) Dense Layer with Relu and Softmax as activation functions respectively.
 													(E) Optimizer = Adam , loss = categorical_crossentropy 
 													(F) Callbacks : ModelCheckpoint,PlotLossesKeras,ReduceLROnPlateau
+### NOTE : Some of the model feature above mentioned may be commented out for performance reasons. 													
 ### 4) Alternative methods shown in the notebook are :
 						(a) Data Augmentation using with ImageDataGenerator's flow_from_datafram(). 	
 						(b) Functional API Model over a pre-trained model.
